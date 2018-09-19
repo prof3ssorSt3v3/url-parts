@@ -1,0 +1,97 @@
+html{
+    font-size: 16px;
+    font-family: Roboto, Noto, Helvetica, Arial, sans-serif;
+}
+.output{
+    padding: 2rem;
+}
+.output span{
+    font-size: 2rem;
+    color: #666;
+    padding: 1rem 0;
+    margin: 3rem 0;
+    display: inline-block;
+}
+.protocol{
+    color: hsl(10deg, 50%, 50%);
+    border-top: 10px solid hsl(10deg, 50%, 50%);
+}
+.inputs label[for="protocol"]{
+    color: hsl(10deg, 50%, 50%);
+}
+.user{
+    color: hsl(40deg, 50%, 50%);
+    border-top: 10px solid hsl(40deg, 50%, 50%);
+}
+.inputs label[for="user"]{
+    color: hsl(40deg, 50%, 50%);
+}
+.subdomain{
+    color: hsl(70deg, 50%, 50%);
+    border-top: 10px solid hsl(70deg, 50%, 50%);
+}
+.inputs label[for="subdomain"]{
+    color: hsl(70deg, 50%, 50%);
+}
+.domain{
+    color: hsl(100deg, 50%, 50%);
+    border-top: 10px solid hsl(100deg, 50%, 50%);
+}
+.inputs label[for="domain"]{
+    color: hsl(100deg, 50%, 50%);
+}
+.superdomain{
+    color: hsl(130deg, 50%, 50%);
+    border-top: 10px solid hsl(130deg, 50%, 50%);
+}
+.inputs label[for="superdomain"]{
+    color: hsl(130deg, 50%, 50%);
+}
+.path{
+    color: hsl(160deg, 50%, 50%);
+    border-top: 10px solid hsl(160deg, 50%, 50%);
+}
+.inputs label[for="path"]{
+    color: hsl(160deg, 50%, 50%);
+}
+.file{
+    color: hsl(190deg, 50%, 50%);
+    border-top: 10px solid hsl(190deg, 50%, 50%);
+}
+.inputs label[for="file"]{
+    color: hsl(190deg, 50%, 50%);
+}
+.query{
+    color: hsl(220deg, 50%, 50%);
+    border-top: 10px solid hsl(220deg, 50%, 50%);
+}
+.inputs label[for="query"]{
+    color: hsl(220deg, 50%, 50%);
+}
+.hash{
+    color: hsl(250deg, 50%, 50%);
+    border-top: 10px solid hsl(250deg, 50%, 50%);
+}
+.inputs label[for="hash"]{
+    color: hsl(250deg, 50%, 50%);
+}
+
+.inputs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+.inputs label{
+    font-size: 1.5rem;
+    color: #999;
+}
+.inputs label::after{
+    content: ":";
+    padding: 0 0.2rem;
+}
+.inputs input{
+    font-size: 1.5rem;
+    color: #999;
+    padding: 0 0.5rem;
+    display: block;
+}

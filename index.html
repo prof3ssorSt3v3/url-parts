@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parts of the URL</title>
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+    <section class="output">
+        <span class="protocol"></span>
+        <span class="colon">://</span>
+        <span class="user" data-suffix="@"></span>
+        <span class="subdomain"></span>.
+        <span class="domain"></span>.
+        <span class="superdomain"></span>
+        <span class="path" data-prefix="/"></span>
+        <span class="file" data-prefix="/"></span>
+        <span class="query" data-prefix="?"></span>
+        <span class="hash" data-prefix="#"></span>
+    </section>
+    <section class="inputs">
+        <p><label for="protocol">Protocol</label>
+        <input type="text" id="protocol" value="https"></p>
+        <p><label for="user">Username</label>
+        <input type="text" id="user" value="bob" /></p>
+        <p><label for="subdomain">Sub-Domain</label>
+        <input type="text" id="subdomain" value="www" /></p>
+        <p><label for="domain">Domain</label>
+        <input type="text" id="domain" value="example" /></p>
+        <p><label for="superdomain">Super-Domain</label>
+        <input type="text" id="superdomain" value="com" /></p>
+        <p><label for="path">Path</label>
+        <input type="text" id="path" value="folder/path" /></p>
+        <p><label for="file">File</label>
+        <input type="text" id="file" value="index.html" /></p>
+        <p><label for="query">Querystring</label>
+        <input type="text" id="query" value="name=value" /></p>
+        <p><label for="hash">Hash</label>
+        <input type="text" id="hash" value="main" /></p>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
